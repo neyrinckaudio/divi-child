@@ -1,0 +1,40 @@
+/*
+ Theme Name:   Divi Child
+ Description:  Divi Child Theme
+ Author:       Bernice Ling
+ Template:     Divi
+ Version:      1.0.0
+*/
+
+
+/* LOGIN / REGISTRATION */
+#login { width: 80%; }
+
+
+
+/*  STORE PAGE */
+.et_shop_image { width : 68px  !important; margin: 0 auto !important; }
+.woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3 { font-size: 16px !important; }
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { text-align: center; }
+.single-product #main-content .container:before { display: none; }
+.single-product #left-area { width: 100%; padding: 0!important; }
+
+/**
+	Divi Theme hide sidebar on WooCommerce product and shop pages 
+	and forum pages
+**/
+.woocommerce-page #left-area, .forum #left-area {
+padding-right: 0 !important;
+	width: 100%;
+}
+.woocommerce-page #sidebar, .forum #sidebar {
+	display: none;
+}
+.woocommerce-page #main-content .container::before, .et_right_sidebar #main-content .container:before {
+	display: none;
+}
+
+ #left-area {
+padding-right: 0 !important;
+	width: 100%;
+}
